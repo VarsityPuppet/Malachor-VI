@@ -1,0 +1,13 @@
+Here's my proposal for the pre dialog naming agreement:
+
+Dialog name: "pre"+MODULE_NAME
+object that starts the dialog: MODULE_NUMBER+"dlghost"
+
+MODULE_NAME is for example 905mal
+MODULE_NUMBER is for example 905
+
+Example names are:
+pre905mal.dlg
+905dlghost
+
+That's how the node is currently scripted in MP_control.nss 

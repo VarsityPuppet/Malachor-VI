@@ -1,0 +1,29 @@
+# mdlops ver: 0.5 from KOTOR binary source
+# model 903malcam
+filedependancy 903malcam-ascii-k2-bin NULL.mlk
+newmodel 903malcam
+setsupermodel 903malcam NULL
+classification Character
+setanimationscale 0.971000015735626
+
+beginmodelgeom 903malcam
+  bmin -5 -5 -1
+  bmax 5 5 10
+  radius 7
+node dummy 903malcam
+  parent NULL
+  wirecolor 1 1 1
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+endnode
+node dummy camerahook
+  parent 903malcam
+  position 3.11500000953674 3.58992195129395 4.24599981307983
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+endnode
+endmodelgeom 903malcam
+
+donemodel 903malcam

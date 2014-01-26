@@ -1,0 +1,7 @@
+proceduretype cycle
+defaultwidth 128
+defaultheight 128
+numx 2
+numy 2
+fps 24
+decal 1
