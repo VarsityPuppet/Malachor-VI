@@ -1,0 +1,986 @@
+# Exported from NWmax 0.8 b61 at 8/11/2010 1:36:38 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: DOR_MALFF
+#local file: Unknown
+filedependancy Unknown
+newmodel DOR_MALFF
+setsupermodel DOR_MALFF NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom DOR_MALFF
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node light AuroraLight01
+  parent DOR_MALFF
+  position -0.00769706 -0.0632581 3.33593
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 12.0
+  multiplier 1.0
+  color 0.925491 0.784314 0.960785 
+  ambientonly 0
+  nDynamicType 2
+  affectDynamic 0
+  shadow 1
+  lightpriority 2
+  fadingLight 1
+endnode
+node dummy lookathook
+  parent DOR_MALFF
+  position 0.0 0.0 1.55
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.776471 0.341176 
+endnode
+node trimesh Planeff
+  parent DOR_MALFF
+  position -0.01 -0.28 4.97
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 1.00002 -335.542 0.461906 
+  bitmap PER_Dr03b
+  verts 4
+    -3.50782 -1.85987 0.00462048
+    -3.50782 -4.85096 0.00462126
+    3.52782 -1.85987 0.00461687
+    3.52782 -4.85096 0.00461791
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    0.000499845 0.999501 0
+    0.000499547 0.000499696 0
+    0.9995 0.9995 0
+    0.9995 0.000499517 0
+endnode
+node trimesh Plane06
+  parent DOR_MALFF
+  position -0.01 -0.02 4.97
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 1.00002 -335.542 0.0757096 
+  bitmap PER_Dr03a
+  verts 4
+    -3.50782 -1.85987 0.00075631
+    -3.50782 -4.85096 0.000757082
+    3.52782 -1.85987 0.000756267
+    3.52782 -4.85096 0.000757925
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    0.9995 0.999501 0
+    0.9995 0.000499696 0
+    0.000499547 0.9995 0
+    0.000499845 0.000499517 0
+endnode
+node trimesh Plane10
+  parent DOR_MALFF
+  position -0.01 0.17 4.97
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 1.00002 -335.542 0.0790378 
+  bitmap PER_Dr03b
+  verts 4
+    -3.50782 -1.85987 0.000792065
+    -3.50782 -4.85096 0.000792842
+    3.52782 -1.85987 0.00079204
+    3.52782 -4.85096 0.000787915
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+  tverts 4
+    0.9995 0.999501 0
+    0.9995 0.000499696 0
+    0.000499547 0.9995 0
+    0.000499845 0.000499517 0
+endnode
+node trimesh Plane11
+  parent DOR_MALFF
+  position -0.14 0.17 1.61
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 14.0 0.458504 0.0793972 
+  bitmap PER_Dr03b
+  verts 4
+    -3.37782 -1.49096 0.000793231
+    -3.37782 1.50013 0.000792454
+    3.65782 1.50013 0.00079243
+    3.65782 -1.49096 0.000795514
+  faces 2
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+  tverts 4
+    0.9995 0.000499696 0
+    0.9995 0.999501 0
+    0.000499547 0.9995 0
+    0.000499845 0.000499517 0
+endnode
+node trimesh Plane12
+  parent DOR_MALFF
+  position -0.14 -0.02 1.61
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 14.0 0.458504 0.0756491 
+  bitmap PER_Dr03a
+  verts 4
+    -3.37782 -1.49096 0.000757472
+    -3.37782 1.50013 0.0007567
+    3.65782 1.50013 0.000756656
+    3.65782 -1.49096 0.00075551
+  faces 2
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+  tverts 4
+    0.9995 0.000499696 0
+    0.9995 0.999501 0
+    0.000499547 0.9995 0
+    0.000499845 0.000499517 0
+endnode
+node trimesh Planeff01
+  parent DOR_MALFF
+  position -0.14 -0.28 1.61
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.9
+  transparencyhint 0
+  selfillumcolor 1.0 1.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 14.0 0.458504 0.462317 
+  bitmap PER_Dr03b
+  verts 4
+    -3.37782 -1.49096 0.00462164
+    -3.37782 1.50013 0.00462086
+    3.65782 1.50013 0.00462084
+    3.65782 -1.49096 0.0046255
+  faces 2
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+  tverts 4
+    0.000499547 0.000499696 0
+    0.000499845 0.999501 0
+    0.9995 0.9995 0
+    0.9995 0.000499517 0
+endnode
+endmodelgeom DOR_MALFF
+#NWmax ANIM ASCII
+newanim opening1 DOR_MALFF
+  length 2.33333
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.925491 0.784314 0.960785 
+            2.33333 0.0 0.0 0.0 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.28 4.97
+            2.3 -0.01 -0.28 4.97
+            2.33333 -10.5601 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.2 0.45 
+            0.466667 0.88 
+            0.6 0.85 
+            0.766667 0.5 
+            0.9 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.02 4.97
+            2.3 -0.01 -0.02 4.97
+            2.33333 -10.5601 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 0.17 4.97
+            2.3 -0.01 0.17 4.97
+            2.33333 -10.5601 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 0.17 1.61
+            2.3 -0.14 0.17 1.61
+            2.33333 -10.6901 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.02 1.61
+            2.3 -0.14 -0.02 1.61
+            2.33333 -10.6901 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.28 1.61
+            2.3 -0.14 -0.28 1.61
+            2.33333 -10.6901 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.2 0.45 
+            0.466667 0.88 
+            0.6 0.85 
+            0.766667 0.5 
+            0.9 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+doneanim opening1 DOR_MALFF
+#NWmax ANIM ASCII
+newanim closing1 DOR_MALFF
+  length 0.8
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.0 0.0 0.0 
+            0.0333333 0.0 0.0 0.0 
+            0.8 0.925491 0.784314 0.960785 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.28 4.97
+            0.733333 -10.5601 -0.28 4.97
+            0.8 -0.01 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.02 4.97
+            0.733333 -10.5601 -0.02 4.97
+            0.8 -0.01 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 0.17 4.97
+            0.733333 -10.5601 0.17 4.97
+            0.8 -0.01 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 0.17 1.61
+            0.733333 -10.6901 0.17 1.61
+            0.8 -0.14 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.02 1.61
+            0.733333 -10.6901 -0.02 1.61
+            0.8 -0.14 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.28 1.61
+            0.733333 -10.6901 -0.28 1.61
+            0.8 -0.14 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+doneanim closing1 DOR_MALFF
+#NWmax ANIM ASCII
+newanim closed DOR_MALFF
+  length 0.0
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.925491 0.784314 0.960785 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+        endlist
+    endnode
+doneanim closed DOR_MALFF
+#NWmax ANIM ASCII
+newanim opened1 DOR_MALFF
+  length 0.0
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.0 0.0 0.0 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim opened1 DOR_MALFF
+#NWmax ANIM ASCII
+newanim opening2 DOR_MALFF
+  length 2.33333
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.925491 0.784314 0.960785 
+            2.33333 0.0 0.0 0.0 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.28 4.97
+            2.3 -0.01 -0.28 4.97
+            2.33333 -10.5601 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.2 0.45 
+            0.466667 0.88 
+            0.6 0.85 
+            0.766667 0.5 
+            0.9 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 -0.02 4.97
+            2.3 -0.01 -0.02 4.97
+            2.33333 -10.5601 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.01 0.17 4.97
+            2.3 -0.01 0.17 4.97
+            2.33333 -10.5601 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 0.17 1.61
+            2.3 -0.14 0.17 1.61
+            2.33333 -10.6901 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.02 1.61
+            2.3 -0.14 -0.02 1.61
+            2.33333 -10.6901 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.366667 0.45 
+            0.633333 0.88 
+            0.766667 0.85 
+            0.933333 0.5 
+            1.06667 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -0.14 -0.28 1.61
+            2.3 -0.14 -0.28 1.61
+            2.33333 -10.6901 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.9 
+            0.2 0.45 
+            0.466667 0.88 
+            0.6 0.85 
+            0.766667 0.5 
+            0.9 0.85 
+            1.26667 0.0 
+            1.5 0.6 
+            1.63333 0.5 
+            1.76667 0.45 
+            1.86667 0.0 
+            2.0 0.3 
+            2.1 0.25 
+            2.2 0.1 
+            2.33333 0.0 
+        endlist
+    endnode
+doneanim opening2 DOR_MALFF
+#NWmax ANIM ASCII
+newanim closing2 DOR_MALFF
+  length 0.8
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.0 0.0 0.0 
+            0.0333333 0.0 0.0 0.0 
+            0.8 0.925491 0.784314 0.960785 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.28 4.97
+            0.733333 -10.5601 -0.28 4.97
+            0.8 -0.01 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.02 4.97
+            0.733333 -10.5601 -0.02 4.97
+            0.8 -0.01 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 0.17 4.97
+            0.733333 -10.5601 0.17 4.97
+            0.8 -0.01 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 0.17 1.61
+            0.733333 -10.6901 0.17 1.61
+            0.8 -0.14 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.02 1.61
+            0.733333 -10.6901 -0.02 1.61
+            0.8 -0.14 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.28 1.61
+            0.733333 -10.6901 -0.28 1.61
+            0.8 -0.14 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+            0.8 0.9 
+        endlist
+    endnode
+doneanim closing2 DOR_MALFF
+#NWmax ANIM ASCII
+newanim opened2 DOR_MALFF
+  length 0.0
+  transtime 0.25
+  animroot DOR_MALFF
+    node dummy DOR_MALFF
+        parent NULL
+    endnode
+    node light AuroraLight01
+        parent DOR_MALFF
+        colorkey
+            0.0 0.0 0.0 0.0 
+        endlist
+    endnode
+    node dummy lookathook
+        parent DOR_MALFF
+    endnode
+    node trimesh Planeff
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.28 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane06
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 -0.02 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane10
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.5601 0.17 4.97
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane11
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 0.17 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Plane12
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.02 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Planeff01
+        parent DOR_MALFF
+        positionkey
+            0.0 -10.6901 -0.28 1.61
+        endlist
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+doneanim opened2 DOR_MALFF
+donemodel DOR_MALFF

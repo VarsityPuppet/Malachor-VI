@@ -1,0 +1,28 @@
+The changes this time around are many
+
+dialogs-
+
+I added some 'nicer' options to the t3mal dialog
+
+I added the security camera logs, complete with party member cutscenes
+
+Fixed the lift dialog conditional not working right (but not the way it repairs)
+
+uh... actually, I guess that's it
+
+
+-----------------------------------------------------------
+
+Added since last time:
+
+
+Fixed the Lift repair options (Activating lift would sometimes disappear}
+
+T3's dialog fixed (a local was not setting to access the second part of his dialog)
+
+Using the lift now warps to 902mal to run the Visas/Mandalore cutscene. Conditionals not set in place for if Visas is dead though
+
+Changed the Lift repair script condtional to a custom script
+
+-------------------------------------------------------------
+

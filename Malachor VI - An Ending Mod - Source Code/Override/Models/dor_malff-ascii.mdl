@@ -1,0 +1,2876 @@
+# mdlops ver: 0.6.1alpha1 from KOTOR binary source
+# model DOR_MALFF
+filedependancy dor_malff NULL.mlk
+newmodel DOR_MALFF
+setsupermodel DOR_MALFF NULL
+classification Door
+setanimationscale 1
+
+beginmodelgeom DOR_MALFF
+  bmin -5 -5 -1
+  bmax 5 5 10
+  radius 40
+node dummy DOR_MALFF
+  parent NULL
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+endnode
+node emitter Gold
+  parent DOR_MALFF
+  position 2.06234002113342 -0.0581660009920597 0.584435999393463
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold17
+  parent DOR_MALFF
+  position 2.38284993171692 -0.0581660009920597 0.472326993942261
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.5
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold18
+  parent DOR_MALFF
+  position 2.06234002113342 -0.0581660009920597 0.803112983703613
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 372
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold10
+  parent DOR_MALFF
+  position 2.40294003486633 -0.0581660009920597 0.865742981433868
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.5
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold16
+  parent DOR_MALFF
+  position -2.70801997184753 -0.054941900074482 0.391530007123947
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 1
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold19
+  parent DOR_MALFF
+  position -2.38497996330261 -0.0610674992203712 0.712943971157074
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold07
+  parent DOR_MALFF
+  position -2.70801997184753 -0.054941900074482 0.754393994808197
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 1
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold02
+  parent DOR_MALFF
+  position -2.38497996330261 -0.0610674992203712 0.586417973041534
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold08
+  parent DOR_MALFF
+  position -2.70801997184753 -0.054941900074482 0.673298001289368
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 1
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold01
+  parent DOR_MALFF
+  position 2.38284993171692 -0.0581660009920597 0.85800701379776
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.5
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node light AuroraLight01
+  parent DOR_MALFF
+  position -0.00769705977290869 -0.063258096575737 3.33593010902405
+  orientation 0 0 0 0
+  ambientonly 0
+  nDynamicType 2
+  affectDynamic 0
+  shadow 1
+  flare 0
+  lightpriority 2
+  fadingLight 1
+  radius 12
+  color 0.925490975379944 0.784313976764679 0.96078497171402
+  multiplier 1
+endnode
+node dummy lookathook
+  parent DOR_MALFF
+  position 0 0 1.54999995231628
+  orientation 0 0 0 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+endnode
+node trimesh Planeff
+  parent DOR_MALFF
+  position -0.00999999977648258 -0.280000001192093 4.96999979019165
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03b
+  verts 4
+    -3.50781989097595 -1.85986995697021 0.00462047988548875
+    -3.50781989097595 -4.85095977783203 0.00462125986814499
+    3.52782011032104 -1.85986995697021 0.00461687007918954
+    3.52782011032104 -4.85095977783203 0.0046179099008441
+faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.000499845016747713 0.99950098991394 0.0
+    0.000499546993523836 0.000499696005135775 0.0
+    0.999499976634979 0.999499976634979 0.0
+    0.999499976634979 0.000499517016578466 0.0
+endnode
+node trimesh Plane06
+  parent DOR_MALFF
+  position -0.00999999977648258 -0.0199999995529652 4.96999979019165
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03a
+  verts 4
+    -3.50781989097595 -1.85986995697021 0.000756310008000582
+    -3.50781989097595 -4.85095977783203 0.000757082016207278
+    3.52782011032104 -1.85986995697021 0.000756266992539167
+    3.52782011032104 -4.85095977783203 0.000757924979552627
+faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.999499976634979 0.99950098991394 0.0
+    0.999499976634979 0.000499696005135775 0.0
+    0.000499546993523836 0.999499976634979 0.0
+    0.000499845016747713 0.000499517016578466 0.0
+endnode
+node trimesh Plane10
+  parent DOR_MALFF
+  position -0.00999999977648258 0.170000001788139 4.96999979019165
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03b
+  verts 4
+    -3.50781989097595 -1.85986995697021 0.000792064995039254
+    -3.50781989097595 -4.85095977783203 0.000792842009104788
+    3.52782011032104 -1.85986995697021 0.000792040023952723
+    3.52782011032104 -4.85095977783203 0.000787915021646768
+faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    0.999499976634979 0.99950098991394 0.0
+    0.999499976634979 0.000499696005135775 0.0
+    0.000499546993523836 0.999499976634979 0.0
+    0.000499845016747713 0.000499517016578466 0.0
+endnode
+node trimesh Plane11
+  parent DOR_MALFF
+  position -0.140000000596046 0.170000001788139 1.61000001430511
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03b
+  verts 4
+    -3.37782001495361 -1.4909600019455 0.000793231010902673
+    -3.37782001495361 1.5001300573349 0.000792453996837139
+    3.65781998634338 1.5001300573349 0.000792430015280843
+    3.65781998634338 -1.4909600019455 0.00079551397357136
+faces 2
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+  tverts 4
+    0.999499976634979 0.000499696005135775 0.0
+    0.999499976634979 0.99950098991394 0.0
+    0.000499546993523836 0.999499976634979 0.0
+    0.000499845016747713 0.000499517016578466 0.0
+endnode
+node trimesh Plane12
+  parent DOR_MALFF
+  position -0.140000000596046 -0.0199999995529652 1.61000001430511
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03a
+  verts 4
+    -3.37782001495361 -1.4909600019455 0.000757472007535398
+    -3.37782001495361 1.5001300573349 0.000756699999328703
+    3.65781998634338 1.5001300573349 0.000756655994337052
+    3.65781998634338 -1.4909600019455 0.000755510001908988
+faces 2
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+  tverts 4
+    0.999499976634979 0.000499696005135775 0.0
+    0.999499976634979 0.99950098991394 0.0
+    0.000499546993523836 0.999499976634979 0.0
+    0.000499845016747713 0.000499517016578466 0.0
+endnode
+node trimesh Planeff01
+  parent DOR_MALFF
+  position -0.140000000596046 -0.280000001192093 1.61000001430511
+  orientation 1.00000005006826 -0 -0 1.57079990135552
+  scale 1
+  alpha 0.899999976158142
+  selfillumcolor 1 1 1
+  diffuse 1 1 1
+  ambient 1 1 1
+  render 1
+  shadow 0
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  bitmap PER_Dr03b
+  verts 4
+    -3.37782001495361 -1.4909600019455 0.00462163984775543
+    -3.37782001495361 1.5001300573349 0.00462085986509919
+    3.65781998634338 1.5001300573349 0.00462083984166384
+    3.65781998634338 -1.4909600019455 0.00462550017982721
+faces 2
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+  tverts 4
+    0.000499546993523836 0.000499696005135775 0.0
+    0.000499845016747713 0.99950098991394 0.0
+    0.999499976634979 0.999499976634979 0.0
+    0.999499976634979 0.000499517016578466 0.0
+endnode
+node emitter Gold04
+  parent DOR_MALFF
+  position -2.72184991836548 -0.0543121993541718 1.00768005847931
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 1
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold05
+  parent DOR_MALFF
+  position 2.37762999534607 -0.055153701454401 1.29867005348206
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.5
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold20
+  parent DOR_MALFF
+  position 2.38702011108398 -0.0635792016983032 0.8958899974823
+  orientation -0.577350315076005 -0.577350315076005 0.577350315076005 2.09438987165008
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+node emitter Gold21
+  parent DOR_MALFF
+  position -2.71862006187439 -0.0591920986771584 0.826309978961945
+  orientation 0.577350349486064 -0.577350349486064 0.577350349486064 4.18878986065883
+  render Normal
+  specular 0.000000 0.000000 0.000000
+  shininess 0.000000
+  wirecolor 1 1 1
+  deadspace 0
+  blastRadius 0
+  blastLength 0
+  xgrid 1
+  ygrid 1
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fx_flare01
+  twosidedtex 0
+  loop 0
+  renderorder 0
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  lightningRadius 0
+  alphaEnd 0.100000001490116
+  blurlength 10
+  particleRot 0
+  mass 3
+  birthrate 100
+  sizeStart 0.300000011920929
+  colorEnd 0.913725972175598 0.956862986087799 1
+  alphaStart 0.300000011920929
+  p2p_bezier2 0
+  lifeExp 0.600000023841858
+  percentEnd 1
+  sizeEnd_y 0
+  lightningScale 0
+  sizeMid_y 0
+  frameEnd 0
+  percentStart 0
+  velocity 2
+  lightningDelay 0
+  bounce_co 0
+  frameStart 0
+  xsize 20
+  colorStart 1 1 1
+  sizeMid 0.300000011920929
+  percentMid 0
+  sizeEnd 0.100000001490116
+  randvel 1
+  drag 0
+  fps 0
+  sizeStart_y 0
+  spread 0
+  ysize 375
+  p2p_bezier3 0
+  threshold 0
+  alphaMid 0.300000011920929
+  colorMid 1 1 1
+endnode
+endmodelgeom DOR_MALFF
+
+newanim opening1 DOR_MALFF
+  length 2.33332991600037
+  transtime 0.25
+  animroot DOR_PER04
+  eventlist
+    2.29999995231628 OmenEvent01
+  endlist
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0.925490975379944 0.784313976764679 0.96078497171402
+        2.33332991600037 0 0 0
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.280000001192093 4.96999979019165
+        2.29999995231628 -0.00999999977648258 -0.280000001192093 4.96999979019165
+        2.33332991600037 -10.5601003263146 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.200000002980232 0.449999988079071
+        0.466666996479034 0.879999995231628
+        0.600000023841858 0.850000023841858
+        0.766667008399963 0.5
+        0.899999976158142 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+        2.29999995231628 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+        2.33332991600037 -10.5601003263146 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 0.170000001788139 4.96999979019165
+        2.29999995231628 -0.00999999977648258 0.170000001788139 4.96999979019165
+        2.33332991600037 -10.5601003263146 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 0.170000001788139 1.61000001430511
+        2.29999995231628 -0.140000000596046 0.170000001788139 1.61000001430511
+        2.33332991600037 -10.6901003271341 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.0199999995529652 1.61000001430511
+        2.29999995231628 -0.140000000596046 -0.0199999995529652 1.61000001430511
+        2.33332991600037 -10.6901003271341 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.280000001192093 1.61000001430511
+        2.29999995231628 -0.140000000596046 -0.280000001192093 1.61000001430511
+        2.33332991600037 -10.6901003271341 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.200000002980232 0.449999988079071
+        0.466666996479034 0.879999995231628
+        0.600000023841858 0.850000023841858
+        0.766667008399963 0.5
+        0.899999976158142 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 0 0 0
+        2.29999995231628 0 0 0
+        2.33332991600037 -10.4215002059937 0 0
+endlist
+controller20key
+        0 0 0 0 0
+        2.33332991600037 0 0 0 0
+endlist
+endnode
+
+doneanim opening1 DOR_MALFF
+
+newanim closing1 DOR_MALFF
+  length 0.800000011920929
+  transtime 0.25
+  animroot DOR_PER04
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.43333300948143 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0 0 0
+        0.0333333015441895 0 0 0
+        0.800000011920929 0.925490975379944 0.784313976764679 0.96078497171402
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.280000001192093 4.96999979019165
+        0.733332991600037 -10.5601003263146 -0.280000001192093 4.96999979019165
+        0.800000011920929 -0.00999999977648258 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.0199999995529652 4.96999979019165
+        0.733332991600037 -10.5601003263146 -0.0199999995529652 4.96999979019165
+        0.800000011920929 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 0.170000001788139 4.96999979019165
+        0.733332991600037 -10.5601003263146 0.170000001788139 4.96999979019165
+        0.800000011920929 -0.00999999977648258 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 0.170000001788139 1.61000001430511
+        0.733332991600037 -10.6901003271341 0.170000001788139 1.61000001430511
+        0.800000011920929 -0.140000000596046 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.0199999995529652 1.61000001430511
+        0.733332991600037 -10.6901003271341 -0.0199999995529652 1.61000001430511
+        0.800000011920929 -0.140000000596046 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.280000001192093 1.61000001430511
+        0.733332991600037 -10.6901003271341 -0.280000001192093 1.61000001430511
+        0.800000011920929 -0.140000000596046 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 -10.4215002059937 0 0
+        0.733332991600037 -10.4215002059937 0 0
+        0.800000011920929 0 0 0.0112255997955799
+endlist
+controller20key
+        0 0 0 0 0
+endlist
+endnode
+
+doneanim closing1 DOR_MALFF
+
+newanim closed DOR_MALFF
+  length 0
+  transtime 0.25
+  animroot DOR_PER04
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0.925490975379944 0.784313976764679 0.96078497171402
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 100
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 0 0 0
+endlist
+controller20key
+        0 0 0 0 0
+endlist
+endnode
+
+doneanim closed DOR_MALFF
+
+newanim opened1 DOR_MALFF
+  length 0
+  transtime 0.25
+  animroot DOR_PER04
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0 0 0
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 -10.4215002059937 0 0
+endlist
+controller20key
+        0 0 0 0 0
+endlist
+endnode
+
+doneanim opened1 DOR_MALFF
+
+newanim opening2 DOR_MALFF
+  length 2.33332991600037
+  transtime 0.25
+  animroot DOR_PER04
+  eventlist
+    2.29999995231628 OmenEvent01
+  endlist
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0.925490975379944 0.784313976764679 0.96078497171402
+        2.33332991600037 0 0 0
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.280000001192093 4.96999979019165
+        2.29999995231628 -0.00999999977648258 -0.280000001192093 4.96999979019165
+        2.33332991600037 -10.5601003263146 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.200000002980232 0.449999988079071
+        0.466666996479034 0.879999995231628
+        0.600000023841858 0.850000023841858
+        0.766667008399963 0.5
+        0.899999976158142 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+        2.29999995231628 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+        2.33332991600037 -10.5601003263146 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -0.00999999977648258 0.170000001788139 4.96999979019165
+        2.29999995231628 -0.00999999977648258 0.170000001788139 4.96999979019165
+        2.33332991600037 -10.5601003263146 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 0.170000001788139 1.61000001430511
+        2.29999995231628 -0.140000000596046 0.170000001788139 1.61000001430511
+        2.33332991600037 -10.6901003271341 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.0199999995529652 1.61000001430511
+        2.29999995231628 -0.140000000596046 -0.0199999995529652 1.61000001430511
+        2.33332991600037 -10.6901003271341 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.366667002439499 0.449999988079071
+        0.633333027362823 0.879999995231628
+        0.766667008399963 0.850000023841858
+        0.933332979679108 0.5
+        1.06666994094849 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -0.140000000596046 -0.280000001192093 1.61000001430511
+        2.29999995231628 -0.140000000596046 -0.280000001192093 1.61000001430511
+        2.33332991600037 -10.6901003271341 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0.899999976158142
+        0.200000002980232 0.449999988079071
+        0.466666996479034 0.879999995231628
+        0.600000023841858 0.850000023841858
+        0.766667008399963 0.5
+        0.899999976158142 0.850000023841858
+        1.2666699886322 0
+        1.5 0.600000023841858
+        1.63332998752594 0.5
+        1.7666699886322 0.449999988079071
+        1.86667001247406 0
+        2 0.300000011920929
+        2.09999990463257 0.25
+        2.20000004768372 0.100000001490116
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.06666994094849 100
+        1.10000002384186 100
+        1.2666699886322 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.600000023841858 100
+        0.633333027362823 100
+        0.666666984558105 0
+        1.29999995231628 100
+        1.33333003520966 100
+        1.36667001247406 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 100
+        0.0333333015441895 100
+        0.633333027362823 100
+        0.666666984558105 100
+        0.699999988079071 0
+        1.16666996479034 100
+        1.20000004768372 100
+        1.2333300113678 0
+        2.33332991600037 0
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 0 0 0
+        2.29999995231628 0 0 0
+        2.33332991600037 -10.4215002059937 0 0
+endlist
+controller20key
+        0 0 0 0 0
+        2.33332991600037 0 0 0 0
+endlist
+endnode
+
+doneanim opening2 DOR_MALFF
+
+newanim closing2 DOR_MALFF
+  length 0.800000011920929
+  transtime 0.25
+  animroot DOR_PER04
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.43333300948143 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0 0 0
+        0.0333333015441895 0 0 0
+        0.800000011920929 0.925490975379944 0.784313976764679 0.96078497171402
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.280000001192093 4.96999979019165
+        0.733332991600037 -10.5601003263146 -0.280000001192093 4.96999979019165
+        0.800000011920929 -0.00999999977648258 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.0199999995529652 4.96999979019165
+        0.733332991600037 -10.5601003263146 -0.0199999995529652 4.96999979019165
+        0.800000011920929 -0.00999999977648258 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 0.170000001788139 4.96999979019165
+        0.733332991600037 -10.5601003263146 0.170000001788139 4.96999979019165
+        0.800000011920929 -0.00999999977648258 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 0.170000001788139 1.61000001430511
+        0.733332991600037 -10.6901003271341 0.170000001788139 1.61000001430511
+        0.800000011920929 -0.140000000596046 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.0199999995529652 1.61000001430511
+        0.733332991600037 -10.6901003271341 -0.0199999995529652 1.61000001430511
+        0.800000011920929 -0.140000000596046 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.280000001192093 1.61000001430511
+        0.733332991600037 -10.6901003271341 -0.280000001192093 1.61000001430511
+        0.800000011920929 -0.140000000596046 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0
+        0.800000011920929 0.899999976158142
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.366667002439499 0
+        0.633333027362823 100
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 0
+        0.400000005960464 0
+        0.600000023841858 100
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 -10.4215002059937 0 0
+        0.733332991600037 -10.4215002059937 0 0
+        0.800000011920929 0 0 0.0112255997955799
+endlist
+controller20key
+        0 0 0 0 0
+endlist
+endnode
+
+doneanim closing2 DOR_MALFF
+
+newanim opened2 DOR_MALFF
+  length 0
+  transtime 0.25
+  animroot DOR_PER04
+node dummy DOR_MALFF
+  parent NULL
+endnode
+node dummy Gold
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold17
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold18
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold10
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold16
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold19
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold07
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold02
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold08
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold01
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy AuroraLight01
+  parent DOR_MALFF
+colorkey
+        0 0 0 0
+endlist
+endnode
+node dummy Planeff
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.280000001192093 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane06
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 -0.0199999995529652 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane10
+  parent DOR_MALFF
+positionkey
+        0 -10.5601003263146 0.170000001788139 4.96999979019165
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane11
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 0.170000001788139 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Plane12
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.0199999995529652 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Planeff01
+  parent DOR_MALFF
+positionkey
+        0 -10.6901003271341 -0.280000001192093 1.61000001430511
+endlist
+alphakey
+        0 0
+endlist
+endnode
+node dummy Gold04
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold05
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold20
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy Gold21
+  parent DOR_MALFF
+birthratekey
+        0 0
+endlist
+endnode
+node dummy DOR_PER04_DWK
+  parent DOR_MALFF
+endnode
+node dummy d2_DWK_wg_closed
+  parent DOR_PER04_DWK
+controller8key
+        0 -10.4215002059937 0 0
+endlist
+controller20key
+        0 0 0 0 0
+endlist
+endnode
+
+doneanim opened2 DOR_MALFF
+
+donemodel DOR_MALFF

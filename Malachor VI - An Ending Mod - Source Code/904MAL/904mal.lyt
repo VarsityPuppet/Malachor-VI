@@ -1,0 +1,13 @@
+#MAXLAYOUT ASCII
+filedependancy 904MAL.max
+beginlayout
+   roomcount 4
+      904MAL 0.0 0.0 0.0
+      904MALb 0.0 -133.578 0.0
+      904MALc 76.6783 -357.243 0.0
+      902MALh -17.6778 -180.675 0.0
+
+   trackcount 0
+   obstaclecount 0
+   doorhookcount 0
+donelayout

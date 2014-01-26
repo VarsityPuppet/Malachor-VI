@@ -1,0 +1,166 @@
+	851NIH - Ravager
+	[x]Change leave script to accomodate 907 cutscene changes
+
+	205TEL - Carth
+	[x] Change scene with Carth to accomodate 907 cutscene changes.
+
+	003EBO - Ebon Hawk
+	[x]Set Ebon hawk in space
+	-modify background value
+	
+	[ ]Explain Bao-Dur's absence
+	-remove from party
+	-give remote dialog inquiring about Bao
+	
+	[x]Add Malachor to the galaxy map
+	-modify k_sup_galaxymap
+	
+	[x]Allow 907MAL cutscene to trigger
+	-added to Malachor travel sequence in k_sup_galaxymap
+	
+	[x]Create Malachor travel cutscene
+	-set up dialog between PC and hologram
+	-Search for possible party member VOs to use (there will not be party member dialogs otherwise)
+	-queue movie, 907MAL cutscene plays
+	
+	[ ]Remove HK from the Ebon Hawk if he was at the factory.
+	
+	900MAL - Damaged Ebon Hawk
+	
+	[x]Create exposition cutscene(fire via onENter)
+	-set up awaken cutscen
+	-write up dialog options with T3-M4
+	
+	[x]Create invisible placeable for lift control
+	-Usage creates Climb Lift placeable
+	
+	[x]Create Climb Lift placeable
+	-usage leads outside
+	
+	[x]Set up normal Ebon Hawk Placeables
+	
+	[ ]Create large rock to block up one side of the Ebon Hawk
+	
+	[x]Write up extended dialog for T3-M4 - although it still has to be edited a bit (Where's HK if he didn't go to the factory,...)
+	
+	[ ]Add journal entry/quest: Lost Party
+	
+	[ ]Script security recordings
+	
+	901MAL - Malachor Surface
+	
+	[x]Move module entry point to on top of the Hawk
+	
+	[x]Cutscene with Mira fires onEnter
+	-fix some animations
+	-other miscellaneous tweaking
+	
+	[x]Fire Remotes dialog via trigger
+	-Tweak dialog
+	-Exile is present for cutscene
+	-Remote goes off to do mission splitting from Exile
+	
+	[x]Rig onEnter to load the Remote part on 2nd load
+	-Exile and remote split ways
+	-Exile runs off while player controls remote
+	
+	
+	902MAL - Malachor Depths
+	
+	[x]Mira/Hanharr scene fires onEnter
+	-Restore some cut lines
+	
+	[x]"Restore" Visas/Mandalore cutscene
+	-scripting, camera angles required as well
+	
+	[x]Script in the scenic party member fight
+	-fires via trigger
+	-scene is destroyed via trigger
+	
+	[x]Add trigger to destroy scenic party member fight
+	
+	[ ]Add more storm beasts to the caged in area
+
+	[x]Restore cut content during Remote/g0t0 scene
+	-build outcomes based on HK factory
+	-certain outcomes may result in a firefight
+	
+	[x]Remove the entrance to the academy cutscene
+	-Assassins will still come, but no cutscene
+	
+	903MAL - TRAYUS ACADEMY
+	
+	[ ]Restore cut "choice" line.
+	-save party members or get revenge
+	-Set up cameras to show the available paths
+	
+	[ ]tweak/restore vs. Sion dialog
+	-make the overall fight more challenging
+	
+	[ ]Restore Atton/Sion fight
+	-fate depends on whether Atton wins or loses fight
+	
+	[ ]Redistribute enemies
+	
+	[x]Randomize appearances of dark jedi/sith
+	
+	[x]Create ambush scene
+	
+	[ ]Create alternative ambush scenes
+	
+	904MAL - TRAYUS CORE
+	
+	[x]Add Republic Ship section to map
+	
+	[x]Add Malachor section to map
+	
+	[ ]Add some Trayus Prison section to map
+	
+	[x]Restore party member attack on Kreia
+	-figure out outcomes for lacking of certain party members
+	
+	[x]Finish party/kreia cutscene by filling in some cutscene fights
+	
+	[ ]adjust Exile vs. Kreia cutscene for a more cinematic and epic feel
+	-party member's futures should have a scene of them, wherever that may take place
+	
+	[ ]Add in remote dialog to start up Mass Shadow Generator/queue end of game
+		
+	
+	905MAL - TRAYUS PRISON
+	
+	[x]Redistribute placeables
+	
+	[x]Connect up prison cell doors to computer
+	
+	[x]Create module cameras like security cameras for prison cells
+	
+	[ ]Place available party members in cages.
+	-make sure they are separate from one another
+	
+	[ ]Place Prison guards, camera operators, etc
+	
+	[ ]Restore dead Jedi cell
+	
+	[x]Create Cell control terminal
+	
+	
+	906MAL - TRAYUS PROVING GROUND
+	
+	[ ]Add Sith Assassin to beginning of level, trigger dialog onEnter
+	
+	[ ]Add StormBeasts to the stormbeast pen
+	
+	[x]Decorate the place
+	
+	[ ]Add some sort of decent puzzle/action sequence to this area.
+	
+	
+	907MAL - TRAYUS CORE (Cutscene)
+	
+	Kreia's arrival Scene
+	[x] Scripts
+	[x] Cameras
+
+	
+	[x]Try to add the right voice effect to 904904SION017
